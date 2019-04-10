@@ -1,7 +1,7 @@
 # pq-peer
 Post Quantum Peer
 
-This library will encrypt you connection with double aes 256 cbc encryption.
+This library will encrypt your connection with double aes 256 cbc encryption.
 Key exchange are done trough newhope and x25519 cryptography.
 
 Server to accept such peer
