@@ -28,7 +28,7 @@ const net = require("net");
 const port = 9001;
 const host = "127.0.0.1";
 var sock = new net.Socket();
-sock.connect(9001, '127.0.0.1', function() {
+sock.connect(port, host, function() {
 pqp.Client(sock,(peer,err)=>{
 if(!err){
 peer.on("data",(data)=>{
