@@ -1,0 +1,29 @@
+{
+  "name": "pq-peer",
+  "version": "1.0.0",
+  "description": "Post Quantum Peer",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z-ninja/pq-peer.git"
+  },
+  "keywords": [
+    "post-quantum",
+    "peer",
+    "network",
+    "p2p"
+  ],
+  "dependencies": {
+  "ed25519-ekpm":">=1.0.1",
+  "@stablelib/newhope":">=0.7.2"
+  },
+  "author": "zninja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/z-ninja/pq-peer/issues"
+  },
+  "homepage": "https://github.com/z-ninja/pq-peer#readme"
+}
